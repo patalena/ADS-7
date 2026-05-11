@@ -38,7 +38,10 @@ int main() {
             opRandom = train.getOpCount();
         }
 
-        std::cout << n << "\t" << opFalse << "\t\t" << opTrue << "\t\t" << opRandom << "\n";
+        std::cout << n << "\t"
+          << opFalse << "\t\t"
+          << opTrue << "\t\t"
+          << opRandom << "\n";
     }
 
     return 0;
